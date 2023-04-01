@@ -4,7 +4,7 @@ import re
 import pandas as pd
 from datetime import date
 
-import config
+import basura.config as config
 
 def read_txt():
     f = open("chats/chat.txt", "r", encoding='utf-8')
